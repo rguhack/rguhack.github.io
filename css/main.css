@@ -1,0 +1,78 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#logo {
+  padding: 3rem;
+}
+
+.info-section {
+  padding: 0.5rem 0;
+}
+
+#sponsors form .row,
+#register form .row {
+  margin-bottom: 0;
+}
+
+#register form input,
+#register form label {
+  color: white !important;
+}
+
+.organise-logo {
+  padding: 1rem 0;
+}
+
+.organise-logo img:not(:last-child) {
+  margin-right: 2rem;
+}
+
+/* RGUHack Colours */
+.rguhack-navbar-color,
+.rguhack-register-color,
+.rguhack-timetable-color {
+  background-color: #5e266f;
+}
+
+.rguhack-faq-color {
+  background-color: #a27cb2;
+}
+
+/* Sponsor Section */
+
+.sponsor {
+  padding: 2em;
+}
+
+.sponsor img {
+  vertical-align: middle;
+}
+
+.sponsor img:not(:last-of-type) {
+  padding-right: 2em;
+}
+
+.sponsor.alpha img {
+  height: 50px;
+}
+
+.sponsor.beta img {
+  height: 100px;
+}
+
+.sponsor.delta img {
+  height: 150px;
+}
+
+/* Timetables */
+.timetable thead {
+    border-bottom: none;
+}
+
+.timetable tbody > tr > td:first-of-type,
+.timetable thead > tr > th:first-of-type {
+    width: 25%;
+    text-align: right;
+    padding-right: 1em;
+}
