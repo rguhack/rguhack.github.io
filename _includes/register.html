@@ -19,8 +19,8 @@
         <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
 
         <script type="text/javascript">
-            var exampleCallback = function() {
-                console.log('Order complete!');
+            var orderCompleted = function() {
+                ga('send', 'event', 'Ticket', 'ordered');
             };
 
             window.EBWidgets.createWidget({
@@ -28,7 +28,7 @@
                 eventId: '44457392257',
                 modal: true,
                 modalTriggerElementId: 'eventbrite-widget-modal-trigger-44457392257',
-                onOrderComplete: exampleCallback
+                onOrderComplete: orderCompleted
             });
         </script>
     </div>
