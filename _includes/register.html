@@ -9,7 +9,27 @@
         </p>
 
         <p class="center-align">
-            <a class="waves-effect waves-light btn" href="https://www.eventbrite.com/e/rguhack-2018-tickets-44457392257?aff=rguhack" target="_blank">Get Tickets</a>
+            <!-- Noscript content for added SEO -->
+            <noscript><a class="waves-effect waves-light btn" href="https://www.eventbrite.co.uk/e/rguhack-2018-tickets-44457392257?aff=rguhack" rel="noopener noreferrer" target="_blank"></noscript>
+            <!-- You can customize this button any way you like -->
+            <button class="waves-effect waves-light btn" id="eventbrite-widget-modal-trigger-44457392257" type="button">Get Tickets</button>
+            <noscript>Get Tickets</a></noscript>
         </p>
+
+        <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
+
+        <script type="text/javascript">
+            var exampleCallback = function() {
+                console.log('Order complete!');
+            };
+
+            window.EBWidgets.createWidget({
+                widgetType: 'checkout',
+                eventId: '44457392257',
+                modal: true,
+                modalTriggerElementId: 'eventbrite-widget-modal-trigger-44457392257',
+                onOrderComplete: exampleCallback
+            });
+        </script>
     </div>
 </section>
