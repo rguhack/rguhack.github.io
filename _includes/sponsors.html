@@ -6,14 +6,19 @@
             We would like to give a huge thank you to our sponsors making RGUHack 2018 possible.
         </p>
 
-        <div class="center-align sponsor delta">
-        </div>
+        {% assign tiers = "delta,beta,alpha" | split:',' %}
 
-        <div class="center-align sponsor beta">
+        {% for tier in tiers %}
+        <div class="center-align sponsor {{ tier }}">
+            {% for sponsor in site.data.sponsors %}
+            {% if sponsor.tier == tier %}
+            <a href="{{ sponsor.link }}" target="_blank">
+                <img src="{{ sponsor.image | prepend:'images/sponsors/' | prepend:baseurl | prepend:url }}" alt="{{ sponsor.name }}" />
+            </a>
+            {% endif %}
+            {% endfor %}
         </div>
-
-        <div class="center-align sponsor alpha">
-        </div>
+        {% endfor %}
 
         <p class="center-align">
             If you would like to become a sponsor of RGUHack 2018, send us your details via the button below and a member of the RGUHack team will be in touch.<br />
