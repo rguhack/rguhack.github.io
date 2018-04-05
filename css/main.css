@@ -41,16 +41,14 @@ html {
 
 /* Sponsor Section */
 
-.sponsor {
-  padding: 2em;
-}
-
 .sponsor a {
   vertical-align: middle;
+  margin-top: 2em;
+  display: inline-block;
 }
 
 .sponsor a:not(:last-of-type) {
-  padding-right: 2em;
+  margin-right: 2em;
 }
 
 .sponsor.alpha img {
