@@ -8,6 +8,11 @@
   link: https://www.cisco.com
   tier: delta
 
+- name: Brightree
+  image: brightree.png
+  link: http://www.brightree.com
+  tier: delta
+
 - name: Engage Gaming
   image: engagegaming.png
   link: http://engagegaming.gg
