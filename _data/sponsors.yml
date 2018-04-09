@@ -13,6 +13,11 @@
   link: http://www.brightree.com
   tier: delta
 
+- name: Redgate
+  image: redgate.png
+  link: https://www.red-gate.com
+  tier: beta
+
 - name: Engage Gaming
   image: engagegaming.png
   link: http://engagegaming.gg
