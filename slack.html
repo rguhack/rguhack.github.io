@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% assign redirect_url = "https://bit.ly/2qwrEYP" %}
+
+<div class="container">
+  <script>
+    setTimeout(function() {
+      window.location = "{{ redirect_url }}";
+    }, 100);
+  </script>
+
+  <noscript>
+    Click <a href="{{ redirect_url }}">here</a> if you are not redirected...
+  </noscript>
+</div>
