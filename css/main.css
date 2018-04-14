@@ -78,3 +78,8 @@ html {
 .mlh-asset {
   margin-right: 2rem;
 }
+
+.challenge-sponsors img {
+  width: 350px;
+  margin: 4em 0;
+}
