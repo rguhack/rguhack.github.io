@@ -80,6 +80,10 @@ html {
 }
 
 .challenge-sponsors img {
-  width: 350px;
-  margin: 4em 0;
+  height: 150px;
+  margin: 2em 0;
+}
+
+.challenge-sponsors h3 {
+  margin-top: 0;
 }
