@@ -1,34 +1,4 @@
 - name: Codify
   image: codify.png
   link: http://www.codify.ltd.uk
-  tier: delta
-
-- name: Cisco
-  image: cisco.png
-  link: https://www.cisco.com
-  tier: delta
-
-- name: Brightree
-  image: brightree.png
-  link: http://www.brightree.com
-  tier: delta
-
-- name: Redgate
-  image: redgate.png
-  link: https://www.red-gate.com
-  tier: beta
-
-- name: Engage Gaming
-  image: engagegaming.png
-  link: http://engagegaming.gg
-  tier: alpha
-
-- name: Doist
-  image: doist.png
-  link: https://doist.com
-  tier: alpha
-
-- name: JetBrains
-  image: jetbrains.png
-  link: https://www.jetbrains.com
-  tier: alpha
+  tier: Gold
