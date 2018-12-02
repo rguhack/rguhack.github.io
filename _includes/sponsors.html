@@ -12,6 +12,7 @@
         <div class="center-align sponsor {{ tier }}">
             {% for sponsor in site.data.sponsors %}
             {% if sponsor.tier == tier %}
+            boop
             <a href="{{ sponsor.link }}" target="_blank">
                 <img src="{{ sponsor.image | prepend:'images/sponsors/' | prepend:baseurl | prepend:url }}" alt="{{ sponsor.name }}" />
             </a>

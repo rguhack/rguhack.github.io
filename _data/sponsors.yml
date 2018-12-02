@@ -1,25 +1,25 @@
 - name: Codify
   image: codify.png
   link: http://www.codify.ltd.uk
-  tier: gold
+  tier: Gold
   
 - name: Leonardo
   image: leo.png
   link: https://www.leonardocompany.com/en
-  tier: bronze
+  tier: Bronze
   
 - name: FDM Group
   image: fdm.png
   link: https://www.fdmgroup.com/
-  tier: silver
+  tier: Silver
   
 - name: BP
   image: bp.png
   link: https://www.bp.com/
-  tier: silver
+  tier: Silver
   
 - name: Google
   image: google.png
   link: https://careers.google.com/
-  tier: gold
+  tier: Gold
 
