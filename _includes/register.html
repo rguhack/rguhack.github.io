@@ -15,20 +15,25 @@
             <button class="waves-effect waves-light btn" id="eventbrite-widget-modal-trigger-44457392257" type="button">Register</button>
             <noscript>Register</a></noscript>
         </p>
+        <!-- Noscript content for added SEO -->
+        <noscript><a href="https://www.eventbrite.co.uk/e/rgu-hack-2019-tickets-53227861968" rel="noopener noreferrer" target="_blank"></noscript>
+        <!-- You can customize this button any way you like -->
+        <button id="eventbrite-widget-modal-trigger-53227861968" type="button">Get Ticket</button>
+        <noscript></a>Get Ticket on Eventbrite</noscript>
 
         <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
 
         <script type="text/javascript">
-            var orderCompleted = function() {
-                ga('send', 'event', 'Ticket', 'order');
+            var exampleCallback = function() {
+                console.log('Order complete!');
             };
 
             window.EBWidgets.createWidget({
                 widgetType: 'checkout',
-                eventId: '52498581671',
+                eventId: '53227861968',
                 modal: true,
-                modalTriggerElementId: 'eventbrite-widget-modal-trigger-44457392257',
-                onOrderComplete: orderCompleted
+                modalTriggerElementId: 'eventbrite-widget-modal-trigger-53227861968',
+                onOrderComplete: exampleCallback
             });
         </script>
     </div>
