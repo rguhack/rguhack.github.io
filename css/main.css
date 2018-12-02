@@ -51,15 +51,15 @@ html {
   margin-right: 2em;
 }
 
-.sponsor.alpha img {
+.sponsor.Bronze img {
   height: 50px;
 }
 
-.sponsor.beta img {
+.sponsor.Silver img {
   height: 100px;
 }
 
-.sponsor.delta img {
+.sponsor.Gold img {
   height: 150px;
 }
 
