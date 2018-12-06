@@ -22,4 +22,9 @@
   image: google.png
   link: https://careers.google.com/
   tier: Gold
+  
+- name: HackerEarth
+  image: hackerearth.png
+  link: https://www.hackerearth.com/
+  tier: Bronze
 
