@@ -27,4 +27,13 @@
   image: hackerearth.png
   link: https://www.hackerearth.com/
   tier: Bronze
-
+  
+- name: Engage Gaming
+  image: engagegaming.png
+  link: https://www.engagegaming.gg/
+  tier: Bronze
+  
+- name: Brightree
+  image: brightree.png
+  link: https://www.brightree.com/
+  tier: Gold
