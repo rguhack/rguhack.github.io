@@ -3,6 +3,11 @@
   link: http://www.codify.ltd.uk
   tier: Gold
   
+- name: Wood
+  image: wood.png
+  link: https://www.woodplc.com/
+  tier: Gold
+  
 - name: Leonardo
   image: leo.png
   link: https://www.leonardocompany.com/en
