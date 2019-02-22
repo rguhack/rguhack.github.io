@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% assign redirect_url = "52.56.209.40:3000" %}
+
+<div class="container">
+  <script>
+    setTimeout(function() {
+      window.location = "{{ redirect_url }}";
+    }, 100);
+  </script>
+
+  <noscript>
+    Click <a href="{{ redirect_url }}">here</a> if you are not redirected...
+  </noscript>
+</div>
