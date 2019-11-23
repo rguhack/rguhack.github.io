@@ -29,9 +29,7 @@ html {
 }
 
 /* RGUHack Colours */
-.rguhack-navbar-color,
-.rguhack-faq-color,
-.rguhack-timetable-color {
+.rguhack-navbar-color {
   background-color: #572B6B;
 }
 .rguhack-register-color
