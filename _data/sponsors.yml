@@ -18,10 +18,10 @@
 #  link: https://www.designandcode.com/
 #  tier: Gold
 
- name: Leonardo
- image: leo.png
- link: https://www.leonardocompany.com/en/home
- tier: Silver
+- name: Leonardo
+  image: leo.png
+  link: https://www.leonardocompany.com/en/home
+  stier: Silver
 
 #- name: Fennex
 #  image: fennex.png
