@@ -9,12 +9,12 @@
   tier: Gold
 
 - name: Core29
-  image: core29.eps
+  image: core29.svg
   link: https://core29.petersoncontrolunion.com/
   tier: Gold
 
 - name: Design and Code
-  image: designandcode.eps
+  image: designandcode.svg
   link: https://www.designandcode.com/
   tier: Gold
 
