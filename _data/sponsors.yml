@@ -1,19 +1,19 @@
-#- name: Codify
+#  name: Codify
 #  image: codify.png
 #  link: http://www.codify.ltd.uk
 #  tier: Gold
 
-#- name: GitHub
+#  name: GitHub
 #  image: github.png
 #  link: https://github.com/
 #  tier: Gold
 
-#- name: Core29
+#  name: Core29
 #  image: core29.png
 #  link: https://core29.petersoncontrolunion.com/
 #  tier: Gold
 
-#- name: Design and Code
+#  name: Design and Code
 #  image: designandcode.png
 #  link: https://www.designandcode.com/
 #  tier: Gold
@@ -21,14 +21,14 @@
   name: Leonardo
   image: leo.png
   link: https://www.leonardocompany.com/en/home
-  stier: Silver
+  tier: Silver
 
-#- name: Fennex
+#  name: Fennex
 #  image: fennex.png
 #  link: https://www.fennex.io/
 #  tier: Silver
 
-#- name: Intelligent Plant
+#  name: Intelligent Plant
 #  image: intelligentplant.png
 #  link: https://www.intelligentplant.com/
 #  tier: Bronze
