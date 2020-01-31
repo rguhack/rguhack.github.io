@@ -28,7 +28,7 @@
 #  link: https://www.fennex.io/
 #  tier: Silver
 
-#  name: Intelligent Plant
-#  image: intelligentplant.png
-#  link: https://www.intelligentplant.com/
-#  tier: Bronze
+- name: Intelligent Plant
+  image: intelligentplant.svg
+  link: https://www.intelligentplant.com/
+  tier: Bronze
