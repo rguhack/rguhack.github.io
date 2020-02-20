@@ -30,7 +30,7 @@
 
 - name: Fennex
   image: fennex.png
-  link: https://www.fennex.io/
+  link: https://fennex.net/
   tier: Silver
 
 - name: Intelligent Plant
