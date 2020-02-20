@@ -1,3 +1,8 @@
+- name: School of Computing Science and Digital Media
+  image: csdmlogo.png
+  link: http://www.comp.rgu.ac.uk/
+  tier: Gold
+
 - name: Codify
   image: codify.png
   link: http://www.codify.ltd.uk
