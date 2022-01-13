@@ -48,25 +48,25 @@ function initializeClock(id, endtime){
 $(document).ready(function() {
   $(".button-collapse").sideNav();
 
-  var deadline = '2020-02-22T10:00:00Z';
+  var deadline = '2023-01-01T00:00:00Z';
   initializeClock('clock', deadline);
 
-  $('.info-section form').on('submit', function(e) {
-    e.preventDefault();
-
-    $form = $(this);
-
-    $.ajax({
-      url: $form.attr('action'),
-      method: $form.attr('method'),
-      data: $form.serialize()
-    }).done(function(data) {
-      var message = data.success ? 'Submitted form!' : 'Error submitting...';
-      Materialize.toast(message, 4000);
-
-      if (data.success) {
-        $form.find(':input').val('');
-      }
-    });
-  });
+  // $('.info-section form').on('submit', function(e) {
+  //   e.preventDefault();
+  //
+  //   $form = $(this);
+  //
+  //   $.ajax({
+  //     url: $form.attr('action'),
+  //     method: $form.attr('method'),
+  //     data: $form.serialize()
+  //   }).done(function(data) {
+  //     var message = data.success ? 'Submitted form!' : 'Error submitting...';
+  //     Materialize.toast(message, 4000);
+  //
+  //     if (data.success) {
+  //       $form.find(':input').val('');
+  //     }
+  //   });
+  // });
 });
