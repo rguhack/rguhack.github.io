@@ -5,35 +5,47 @@ layout: default
 {% include navbar.html %}
 <script src="js/main.js"></script>
 <div class="container" id="top">
-    <img src="/images/logov2.png" id="logo" class="responsive-img" />
+    <img srcset="/images/logov2-960.png 960w,
+             /images/logov2-1280.png 1280w,
+             /images/logov2-1920.png 1920w,
+             /images/logov2-2560.png 2560w,
+             /images/logov2-3840.png 3840w,
+             /images/logov2.png 14538w"
+         sizes="(max-width: 1200px) 960px,
+         (max-width: 1200px) 1280px,
+         (max-width: 1600px) 1920px,
+         (max-width: 3200px) 2560px,
+         (max-width: 4800px) 3840px,
+            14538px"
+         src="/images/logov2.png" id="logo" class="responsive-img" alt="RGU Hack" width="14538" height="5393"/>
     <div class="center-align">
         <h2>2022...</h2>
     </div>
     <div id="clock" class="row">
-    <div class="col m3 s6">
-        <div class="card-panel grey darken-3 white-text center-align">
-        <h1 class="days"></h1>
-        <div>Days</div>
+        <div class="col m3 s6">
+            <div class="card-panel grey darken-3 white-text center-align">
+                <h1 class="days"></h1>
+                <div>Days</div>
+            </div>
         </div>
-    </div>
-    <div class="col m3 s6">
-        <div class="card-panel grey darken-3 white-text center-align">
-        <h1 class="hours"></h1>
-        <div>Hours</div>
+        <div class="col m3 s6">
+            <div class="card-panel grey darken-3 white-text center-align">
+                <h1 class="hours"></h1>
+                <div>Hours</div>
+            </div>
         </div>
-    </div>
-    <div class="col m3 s6">
-        <div class="card-panel grey darken-3 white-text center-align">
-        <h1 class="minutes"></h1>
-        <div>Minutes</div>
+        <div class="col m3 s6">
+            <div class="card-panel grey darken-3 white-text center-align">
+                <h1 class="minutes"></h1>
+                <div>Minutes</div>
+            </div>
         </div>
-    </div>
-    <div class="col m3 s6">
-        <div class="card-panel grey darken-3 white-text center-align">
-        <h1 class="seconds"></h1>
-        <div>Seconds</div>
+        <div class="col m3 s6">
+            <div class="card-panel grey darken-3 white-text center-align">
+                <h1 class="seconds"></h1>
+                <div>Seconds</div>
+            </div>
         </div>
-    </div>
     </div>
     <!--
     <p class="center-align">
