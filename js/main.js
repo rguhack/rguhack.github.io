@@ -69,4 +69,6 @@ $(document).ready(function() {
   //     }
   //   });
   // });
+
+  console.log('what came first? chicken or egg?')
 });
