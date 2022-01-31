@@ -48,7 +48,7 @@ function initializeClock(id, endtime){
 $(document).ready(function() {
   $(".button-collapse").sideNav();
 
-  var deadline = '2023-01-01T00:00:00Z';
+  var deadline = '2022-03-19T10:00:00Z';
   initializeClock('clock', deadline);
 
   // $('.info-section form').on('submit', function(e) {
