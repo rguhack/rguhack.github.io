@@ -9,4 +9,4 @@ Gemfile.lock
 vendor/
 
 # Ignore dev run script
-.sh
+*.sh
