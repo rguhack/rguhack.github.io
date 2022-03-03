@@ -1,39 +1,49 @@
-- name: School of Computing Science and Digital Media
-  image: csdmlogo.png
-  link: http://www.comp.rgu.ac.uk/
+- name: School of Computing
+  image: SoC.png
+  link: https://www.rgu.ac.uk/study/academic-schools/school-of-computing
   tier: Gold
 
-- name: Codify
-  image: codify.png
-  link: http://www.codify.ltd.uk
+- name: CGI
+  image: CGI.png
+  link: https://www.cgi.com/
   tier: Gold
 
-- name: GitHub
-  image: github.png
-  link: https://github.com/
+- name: Aize
+  image: Aize.png
+  link: https://www.aize.io/
   tier: Gold
 
-- name: Core29
-  image: core29.svg
-  link: https://core29.petersoncontrolunion.com/
+- name: Harbour Energy
+  image: HarbourEnergy.png
+  link: https://www.harbourenergy.com/
   tier: Gold
 
-- name: Design and Code
-  image: designandcode.svg
-  link: https://www.designandcode.com/
+- name: Global E&C
+  image: GlobalEC.png
+  link: https://global-ec.com/
   tier: Gold
 
 - name: Leonardo
-  image: leo.png
-  link: https://www.leonardocompany.com/en/home
+  image: Leonardo.png
+  link: https://uk.leonardocompany.com/en/home
   tier: Silver
 
-- name: Fennex
-  image: fennex.png
+- name: Core29
+  image: Core29.png
+  link: https://www.core29.co.uk/
+  tier: Silver
+
+- name: Fennex Solutions
+  image: Fennex.png
   link: https://fennex.net/
   tier: Silver
 
-- name: Intelligent Plant
-  image: intelligentplant.svg
-  link: https://www.intelligentplant.com/
+- name: Codify
+  image: Codify.png
+  link: https://www.codify.ltd.uk/
+  tier: Bronze
+
+- name: Dev4
+  image: Dev4.png
+  link: https://dev4.co.uk/
   tier: Bronze
