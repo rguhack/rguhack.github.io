@@ -23,6 +23,11 @@
   link: https://global-ec.com/
   tier: Gold
 
+- name: ITI Group
+  image: ITI.Computing
+  link: https://www.itigroup.co.uk/
+  tier: Silver
+
 - name: Leonardo
   image: Leonardo.png
   link: https://uk.leonardocompany.com/en/home
