@@ -2,85 +2,27 @@
     <div class="container">
         <h2 class="center-align">FAQ</h2>
 
-        <div class="row">
-            <div class="col m6 s12">
-                <div class="card">
-                    <div class="card-content">
-                    <span class="card-title">What is RGUHack?</span>
-                    RGUHack is an all-inclusive, free event organised for students by students.
-                    Your goal? To code something awesome in just 24 hours.<br /><br />
-                    There'll be coding workshops to learn new skills, games, lots of food, swag and tech to use.
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                    <span class="card-title">Where will it be held?</span>
-                    RGUHack will be held at Robert Gordon University in Aberdeen.
-                    For the past four years it has been held in the 'bear pit', the reception atrium of the Sir Ian Wood Building.
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                    <span class="card-title">Is the event beginner friendly?</span>
-                    It is absolutely no problem if you have never attended a hackathon before - you won't be the only one! This event is suitable for first years to postgraduates: it's all about learning something new, having fun and meeting other developers. There's lots of mentorship and tech support on hand to help make your ideas a reality.
-
-                    </div>
-                </div>
-                <!--
-                <div class="card">
-                    <div class="card-content">
-                    <span class="card-title">What rules do I need to follow?</span>
-                    RGUHack will outline their official rules before you secure your place at the event.
-                    You will also need to follow the <a target="_blank" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">Code of Conduct</a> provided by MLH.
-                    You are required to agree to these terms to attend the event.
-                    </div>
-                </div>
-                -->
-                <div class="card">
-                    <div class="card-content">
-                    <span class="card-title">Do you offer travel reimbursement?</span>
-                    Yes! Thanks to all of our amazing sponsors we are able to reimburse a limited number of journeys up to £25. More information and terms are shown when you get your ticket via Eventbrite.
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                    <span class="card-title">Is there a code of conduct?</span>
-                    Yes! All attendees are expected to abide by our <a href="https://docs.google.com/document/d/1jOEcZATciMV8iqH4e76nUWECguySrKtRUOWl1OPxCFE/edit?usp=sharing">Code of Conduct</a>.</div>
+    <div class="row">
+        <div class="col m6 s12">
+          {% for faq in site.data.faq.column-1 %}
+            <div class="card">
+                <div class="card-content">
+                <span class="card-title">{{ faq.title }}</span>
+                {{ faq.text }}
                 </div>
             </div>
-            <div class="col m6 s12">
-
-                <div class="card">
-                    <div class="card-content">
-                    <span class="card-title">Who can attend?</span>
-                    You have to be a student currently in education, or have graduated in the last 12 months.
-                    However, there is no limit to how young or old you are!
-                    You also don't have to be a computing student to come and contribute - anyone with an interest in programming is welcome.
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                    <span class="card-title">Can I sponsor the event?</span>
-                    We would love to have you involved!
-                    Please use the form below to register your interest in sponsoring the event.
-                    The RGUHack team will be in touch with you.
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                    <span class="card-title">How will my data be used?</span>
-                    Your data will be stored by RGUHack and used under our Data Protection / Privacy Policy. With your consent, we'll pass your CV along to our event sponsors. Anything you create at RGUHack belongs to you.
-                    <!--Information will be provided to MLH and handled under their <a target="_blank" href="https://github.com/MLH/policies/blob/master/data-sharing.md">Data Sharing</a> provision.-->
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                        <span class="card-title">What do I need to bring?</span>
-                        You'll need a laptop and charger. Don't have one? Get in touch and we'll see what we can arrange. Take a phone charger and any other cables you think you will need.
-                        Bring some warm and comfortable clothes as the hackathon is long and maybe take a fresh set of clothes for the final presentations.
-                    </div>
-                </div>
+            {% endfor %}
+          </div>
+          <div class="col m6 s12">
+            {% for faq in site.data.faq.column-2 %}
+              <div class="card">
+                  <div class="card-content">
+                  <span class="card-title">{{ faq.title }}</span>
+                  {{ faq.text }}
+                  </div>
+              </div>
+              {% endfor %}
             </div>
         </div>
-    </div>
+      </div>
 </section>
