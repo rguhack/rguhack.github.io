@@ -23,6 +23,11 @@
   link: https://global-ec.com/
   tier: Gold
 
+- name: Stena Drilling
+  image: Stena.png
+  link: https://www.stena-drilling.com/
+  tier: Silver
+
 - name: ITI Group
   image: ITI.png
   link: https://www.itigroup.co.uk/
