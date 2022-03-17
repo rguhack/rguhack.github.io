@@ -1,19 +1,49 @@
+- title: What is RGUHack?
+  text: >
+    RGUHack is an all-inclusive, free event organised for students by students. Your goal? To code something awesome in just 24 hours. There'll be coding workshops to learn new skills, games, lots of food, swag and tech to use.
+  column: 1
+
+- title: Where will it be held?
+  text: >
+    RGUHack will be held at Robert Gordon University in Aberdeen. For the past few years it has been held in the legendary 'bear pit', the reception atrium of the Sir Ian Wood Building.
+  column: 1
+
+- title: Is the event suitable for beginners?
+  text: >
+    Yes! RGUHack is open to complete beginners and seasoned hackathon attendees! If you have never attended a hackathon before you won't be the only one, and you don't need to be studying a computing degree or have coding experience. It's all about learning something new, having fun and meeting others. There's lots of mentorship and tech support on hand throughout to help make your ideas a reality. Don't stress as many people will be on the same boat!
+  column: 1
+
+- title: Do you offer travel reimbursement?
+  text: >
+    Yes! Thanks to all of our amazing sponsors we are able to reimburse a limited number of journeys up to £25. More information and terms are shown when you get your ticket via Eventbrite.
+  column: 1
+
+- title: Is there a code of conduct?
+  text: >
+    Yes! All attendees are expected to abide by our Code of Conduct.
+  column: 1
+
 - title: Who can attend?
   text: >
     You have to be a student currently in education, or have graduated in the last 12 months. However, there is no limit to how young or old you are! You also don't have to be a computing student to come and contribute - anyone with an interest in programming is welcome.
+  column: 2
 
 - title: Can I sponsor the event?
   text: >
     We would love to have you involved! Please use the form below to register your interest in sponsoring the event. The RGUHack team will be in touch with you.
+  column: 2
 
 - title: How will my data and code be used?
   text: >
     Your data will be stored by RGUHack and only used to adminster the event. With your consent, we'll pass your details along to our sponsors. Anything you create at RGUHack belongs to you.
+  column: 2
 
 - title: What do I need to bring?
   text: >
     You'll need a laptop and charger. Don't have one? Get in touch and we'll see what we can arrange. Take a phone charger and any other cables you think you'll need. You should bring some warm and comfortable clothes as the hackathon can be a long 24 hours, and take a fresh set of clothes if you’d like to get changed. If you’d like to take a rest during the event, we’d also suggest taking a sleeping bag and/or pillow.
+  column: 2
 
 - title: Are there any COVID-19 restrictions?
   text: >
     You'll need to comply with all current Scottish Government and Robert Gordon University venue rules at the time of the event. There is currently no requirement for a vaccine passport or equivalent. You may wish to carry out a test before the event for your own peace of mind and to protect others and we would encourage you to do so if that option is available to you.
+  column: 2

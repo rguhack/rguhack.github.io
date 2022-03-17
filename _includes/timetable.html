@@ -4,46 +4,49 @@
         <p><i>Timetable is subject to change on the day. Any changes are usually minor.</i></p>
 
         <div class="row">
-            <div class="col l6 m12">
-                <h3>Saturday 26<sup>th</sup> March</h3>
+              <div class="col l6 m12">
+                  <h3>Saturday 26<sup>th</sup> March</h3>
+                  <table class="timetable">
+                      <thead>
+                          <tr>
+                              <th class="time">Time</th>
+                              <th>Event</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                        {% for event in site.data.timetable %}
+                          {% if event.day == 1 %}
+                          <tr>
+                              <td>{{ event.time }}</td>
+                              <td>{{ event.title }}</td>
+                          </tr>
+                          {% endif %}
+                        {% endfor %}
+                      </tbody>
+                  </table>
+              </div>
 
-                <table class="timetable">
-                    <thead>
-                        <tr>
-                            <th class="time">Time</th>
-                            <th>Event</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                      {% for event in site.data.timetable.day-1 %}
-                        <tr>
-                            <td>{{ event.time }}</td>
-                            <td>{{ event.title }}</td>
-                        </tr>
-                      {% endfor %}
-                    </tbody>
-                </table>
-            </div>
-            <div class="col l6 m12">
-                <h3>Sunday 27<sup>th</sup> March</h3>
-
-                <table class="timetable">
-                    <thead>
-                        <tr>
-                            <th class="time">Time</th>
-                            <th>Event</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                      {% for event in site.data.timetable.day-2 %}
-                        <tr>
-                            <td>{{ event.time }}</td>
-                            <td>{{ event.title }}</td>
-                        </tr>
-                      {% endfor %}
-                    </tbody>
-                </table>
-            </div>
+              <div class="col l6 m12">
+                  <h3>Sunday 27<sup>th</sup> March</h3>
+                  <table class="timetable">
+                      <thead>
+                          <tr>
+                              <th class="time">Time</th>
+                              <th>Event</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                        {% for event in site.data.timetable %}
+                          {% if event.day == 2 %}
+                            <tr>
+                                <td>{{ event.time }}</td>
+                                <td>{{ event.title }}</td>
+                            </tr>
+                          {% endif %}
+                        {% endfor %}
+                      </tbody>
+                  </table>
+              </div>
         </div>
     </div>
 </section>

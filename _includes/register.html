@@ -18,8 +18,8 @@
         <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
 
         <script type="text/javascript">
-            var exampleCallback = function() {
-                console.log('Order complete!');
+            var unusedCallback = function() {
+                console.log('Welcome to the dev side.');
             };
 
             window.EBWidgets.createWidget({
@@ -27,7 +27,7 @@
                 eventId: '244805759617',
                 modal: true,
                 modalTriggerElementId: 'eventbrite-widget-modal-trigger-244805759617',
-                onOrderComplete: exampleCallback
+                onOrderComplete: unusedCallback
             });
         </script>
     </div>
