@@ -46,7 +46,9 @@ function initializeClock(id, endtime){
 }
 
 $(document).ready(function() {
-  $(".button-collapse").sideNav();
+  $(".button-collapse").sideNav({
+    closeOnClick: true
+  });
 
   var deadline = '2022-03-26T10:00:00Z';
   initializeClock('clock', deadline);

@@ -2,27 +2,21 @@
 <html>
     <head>
         <title>RGUHack!</title>
-
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" />
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" integrity="sha512-OTU9XSxGfNm5+FGZBjkVkQvBTXBnEaEjk0AE1pt2RxsL8C6H/ADrGgHyfxuexqVFBqOgUwyx841GMRFOkeLfMA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" type="text/css" href="{{ '/css/main.css' | prepend: site.baseurl }}" />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     </head>
     <body>
         {{ content }}
 
         <footer>
-            <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-
-            <script type="text/javascript" src="{{ '/js/main.js' | prepend: site.baseurl }}"></script>
-
-            {% include analytics/google.html %}
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js" integrity="sha512-a52zZ+71owngqhSOqd/24UsNbGPNwZ/KAHfJ72tPnw/c3ueLN80eTVPO9jYj9bTm87wh7QPIMOreISE2IDHFyg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          <script type="text/javascript" src="{{ '/js/main.js' | prepend: site.baseurl }}"></script>
+          {% include analytics/google.html %}
         </footer>
     </body>
 </html>
