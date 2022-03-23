@@ -10,7 +10,11 @@
   time: "12:00"
   day: 1
 
-- title: <b>Start of Hacking</b> and <b>Git Workshop</b>
+- title: <b>Start of Hacking</b>
+  time: "12:30"
+  day: 1
+
+- title: <b>Git Workshop</b>
   time: "13:00"
   day: 1
 
@@ -38,11 +42,11 @@
   time: "08:00"
   day: 2
 
-- title: <b>End of Hacking</b> and Lunch
-  time: "13:00"
+- title: Lunch
+  time: "12:00"
   day: 2
 
-- title: Hack Presentations
+- title: <b>End of Hacking</b> and Hack Presentations
   time: "13:30"
   day: 2
 
