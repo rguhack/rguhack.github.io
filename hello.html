@@ -1,0 +1,109 @@
+---
+layout: default
+---
+
+{% include navbar.html %}
+
+<div class="container" id="top">
+    <img srcset="/images/logov2-960.png 960w,
+             /images/logov2-1280.png 1280w,
+             /images/logov2-1920.png 1920w,
+             /images/logov2-2560.png 2560w,
+             /images/logov2-3840.png 3840w,
+             /images/logov2.png 14538w"
+         sizes="(max-width: 1200px) 960px,
+         (max-width: 1200px) 1280px,
+         (max-width: 1600px) 1920px,
+         (max-width: 3200px) 2560px,
+         (max-width: 4800px) 3840px,
+            14538px"
+         src="/images/logov2.png" id="logo" class="responsive-img" alt="RGU Hack" width="14538" height="5393"/>
+</div>
+
+<div class="container">
+
+  <div class="row">
+    <div class="col s12 m6">
+
+      <div class="card-panel rguhack-navbar-color">
+        <a href="#">
+          <span class="white-text">
+            <h2>/hello</h2>
+            <p>Welcome! Check out the opening presentation here.</p>
+          </span>
+        </a>
+      </div>
+
+      <div class="card-panel blue">
+        <a href="#">
+          <span class="white-text">
+            <h2>/slack</h2>
+            <p>Connect with everyone on Slack. There may be kittens.</p>
+          </span>
+        </a>
+      </div>
+
+      <div class="card-panel grey">
+        <a href="#">
+          <span class="white-text">
+            <h2>/hacktimer</h2>
+            <p>The only timer you'll ever need...</p>
+          </span>
+        </a>
+      </div>
+
+      <div class="card-panel brown">
+        <a href="#">
+          <span class="white-text">
+            <h2>Code of Conduct</h2>
+            <p>Everyone must abide by the RGUHack Code of Conduct. RGUHack is a safe and inclusive event.</p>
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <div class="col s12 m6">
+
+      <div class="card-panel teal">
+        <a href="#">
+          <span class="white-text">
+            <h2>/challenges</h2>
+            <p>See all the challenges and be inspired!</p>
+          </span>
+        </a>
+      </div>
+
+      <div class="card-panel yellow darken-3">
+        <a href="#">
+          <span class="white-text">
+            <h2>/workshops</h2>
+            <p>Learn something new and get some swag!</p>
+          </span>
+        </a>
+      </div>
+
+      <div class="card-panel transparent z-depth-0">
+        <div class="row valign-wrapper">
+          <div class="col s2">
+            <img src="/images/id-lanyard.png" alt="" class="responsive-img">
+          </div>
+          <div class="col s10">
+            <span class="black-text">
+              <h2>Mentors, Help & Support</h2>
+              <p>Look out for mentors rocking their fabulous RGU lanyards!</p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{% include timetable.html %}
+
+{% include faq.html %}
+
+{% include sponsors.html %}
+
+{% include contact.html  %}
