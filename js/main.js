@@ -50,7 +50,7 @@ $(document).ready(function() {
     closeOnClick: true
   });
 
-  var deadline = '2022-03-26T10:00:00Z';
+  var deadline = '2022-03-26T12:30:00Z';
   initializeClock('clock', deadline);
 
   // $('.info-section form').on('submit', function(e) {

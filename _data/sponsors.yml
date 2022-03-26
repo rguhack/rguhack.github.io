@@ -2,26 +2,41 @@
   image: SoC.png
   link: https://www.comp.rgu.ac.uk/
   tier: Gold
+  challenge: 
+  description:
+  infopack:
 
 - name: CGI
   image: CGI.png
   link: https://www.cgi.com/
   tier: Gold
+  challenge:
+  description:
+  infopack:
 
 - name: Aize
   image: Aize.png
   link: https://www.aize.io/
   tier: Gold
+  challenge:
+  description:
+  infopack:
 
 - name: Harbour Energy
   image: HarbourEnergy.png
   link: https://www.harbourenergy.com/
   tier: Gold
+  challenge:
+  description:
+  infopack:
 
 - name: Global E&C
   image: GlobalEC.png
   link: https://global-ec.com/
   tier: Gold
+  challenge:
+  description:
+  infopack:
 
 - name: Stena Drilling
   image: Stena.png

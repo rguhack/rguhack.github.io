@@ -2,66 +2,49 @@
 layout: default
 ---
 
+{% include navbar.html %}
+<div class="container" id="top">
+    <img srcset="/images/logov2-960.png 960w,
+             /images/logov2-1280.png 1280w,
+             /images/logov2-1920.png 1920w,
+             /images/logov2-2560.png 2560w,
+             /images/logov2-3840.png 3840w,
+             /images/logov2.png 14538w"
+         sizes="(max-width: 1200px) 960px,
+         (max-width: 1200px) 1280px,
+         (max-width: 1600px) 1920px,
+         (max-width: 3200px) 2560px,
+         (max-width: 4800px) 3840px,
+            14538px"
+         src="/images/logov2.png" id="logo" class="responsive-img" alt="RGU Hack" width="14538" height="5393"/>
+    <div class="center-align">
+        <h1>Challenges 2022</h1>
+    </div>
+</div>
+
 <div class="container">
-    <div class="" id="logo">
-        <img src="/images/logov2.png" class="responsive-img" />
-        <h1 class="center-align">2019 Challenges</h1>
-    </div>
+  <div class="row">
+    {% for sponsor in site.data.sponsors %}
+    {% if sponsor.tier == "Gold" and sponsor.challenge %}
+      <div class="col s12 m6">
+        <div class="card large challenge">
+          <div class="card-image">
+            <img src="{{ sponsor.image | prepend:'images/sponsors/' | prepend:baseurl | prepend:url }}" alt="{{ sponsor.name }}" />
+            <span class="card-title">{{ sponsor.challenge }}</span>
+          </div>
+          <div class="card-content">
+            <p>{{ sponsor.description }} &nbsp;&nbsp;<b>({{ sponsor.name }})</b></p>
+          </div>
+          <div class="card-action">
+            <a class="btn large" href="{{ sponsor.infopack }}" target="_blank">More info</a>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+    {% endfor %}
+  </div>
 </div>
 
-<div class="container challenge-sponsors">
-    <div class="center-align">
-        <img src="/images/sponsors/codify.png" alt="Codify" />
+{% include sponsors.html %}
 
-        <h3>Artificial Intelligence Challenge</h3>
-    </div>
-
-    <p>Create an AI using machine learning from real world data to make it into a creative mastermind. Have
-your AI learn from real world data such as reading books, recipes or looking at art, and have it become
-        creative enough to produce its specialist item at the end.</p>
-
-    <a href="https://drive.google.com/open?id=0B3IUcjGLLSjUMjY4SnRQWS14NVFPTUg1aGVYN0ZGbVhCZTI4" target="_blank">Challenge PDF</a><br />
-</div>
-    <br /><br />
-<div class="container challenge-sponsors">
-    <div class="center-align">
-        <img src="/images/sponsors/brightree.png" alt="Brightree" />
-
-        <h3>Healthcare Dataset Challenge</h3>
-    </div>
-
-    <p>Using some provided datasets, create something cool!</p>   
-    <a href="https://docs.google.com/presentation/d/1cyp3S-Rmhkfkdzd_UhFMDZTURkPzL-pkEXmz_QBo8qg/edit?usp=sharing" taget="_blank">Brightree Presentation Slides and Link to Data</a>
-</div>
-    <br /><br />
-<div class="container challenge-sponsors">
-    <div class="center-align">
-        <img src="/images/sponsors/wood.png" alt="JetBrains">
-        <h3>Security Challenge</h3>
-    </div>
-    <h5>Event Triage Analyser</h5>
-    <p>Import and analyse the below CSV file of events. Analyse the security issues, define and prioritise them, and display them in an easily readable format.</p>
-    <a href="https://drive.google.com/file/d/1mU0KoopJFTBoAboEpWqA47OVfRw8Zdur/view?usp=sharing" target="_blank">CSV Data File</a><br />
-
-    <h5>Phishing Mailbox Analyser</h5>
-    <p>
-    Automate analysis of mail headers and content, in order to easily identify Phishing emails. 
-    </p>
-    
-    <a href="https://drive.google.com/file/d/1b1jn76Qg68jwC6hEeENR8CcOhHFpS9nW/view?usp=sharing">Wood Challenge Presentation</a>
-</div>
-    <br /><br />
-<div class="container challenge-sponsors">
-    <div class="center-align">
-        <img src="/images/logo.png" alt="RGU">
-
-        <h3>Internet of Things Challenge</h3>
-    </div>
-
-    <p>
-        We want you to build an IoT device. Something that records data and sends across a network to be accessed - perhaps to be displayed on a web dashboard, or triggers an alarm, or sends a user an SMS.</p>
-
-    <a href="https://docs.google.com/document/d/1hf2M88udoVgJuQG-HiExQqbdAS7Q5nCckwaH-dtsf-g/edit?usp=sharing">RGU Challenge Brief PDF</a>
-    <br /><br />
-</div>
-
+{% include contact.html  %}

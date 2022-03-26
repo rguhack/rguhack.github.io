@@ -77,11 +77,20 @@ html {
   margin-right: 2rem;
 }
 
-.challenge-sponsors img {
-  height: 150px;
-  margin: 2em 0;
+.challenge .card-image {
+  min-height: 250px;
 }
 
-.challenge-sponsors h3 {
-  margin-top: 0;
+.challenge .card-title {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* .challenge-sponsors img {
+  height: 150px;
+  margin: 2em 0;
+} */
+
+/* .challenge-sponsors h3 {
+  margin-top: 0;
+} */
