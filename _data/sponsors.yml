@@ -2,7 +2,7 @@
   image: SoC.png
   link: https://www.comp.rgu.ac.uk/
   tier: Gold
-  challenge: 
+  challenge:
   description:
   infopack:
 
@@ -10,7 +10,7 @@
   image: CGI.png
   link: https://www.cgi.com/
   tier: Gold
-  challenge:
+  challenge: What can you build to contribute to a cleaner and more sustainable future?
   description:
   infopack:
 
@@ -18,7 +18,7 @@
   image: Aize.png
   link: https://www.aize.io/
   tier: Gold
-  challenge:
+  challenge: 3D Battleships to Solve a Problem
   description:
   infopack:
 
@@ -26,7 +26,7 @@
   image: HarbourEnergy.png
   link: https://www.harbourenergy.com/
   tier: Gold
-  challenge:
+  challenge: Cyber Risk Matrix
   description:
   infopack:
 
@@ -34,7 +34,7 @@
   image: GlobalEC.png
   link: https://global-ec.com/
   tier: Gold
-  challenge:
+  challenge: Blockchain
   description:
   infopack:
 
