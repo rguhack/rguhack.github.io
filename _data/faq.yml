@@ -18,10 +18,7 @@
     Yes! Thanks to all of our amazing sponsors we are able to reimburse a limited number of journeys up to £25. More information and terms are shown when you grab your ticket via Eventbrite. If you're travelling from further afield and not sure how to get here, you can see some options at <a href="https://www.travelinescotland.com/lts/#/travelInfo?originLatitude=&originLongitude=&originId=&originName=&originType=&originRegion=&destinationLatitude=57.11869686990461&destinationLongitude=-2.1341061561091763&destinationId=&destinationName=Robert%20Gordon%20University,%20Sir%20Ian%20Wood%20Building,%20Garthdee%20Road,%20%20Aberdeen,%20%20AB107GJ&destinationType=LOCATION&destinationRegion=&type=ARRIVE_BY&date=1648307525000&time=1648029600000&modes=%7CBUS%7CCOACH%7CTRAIN%7CMETRO%7CFERRY&maxWalkTime=30&minComfortWaitTime=5&routeType=FASTEST&walkingSpeed=1&cycleRouteType=BALANCED&cycleSpeedIntervals=20&operator=">Traveline Scotland</a>.
   column: 1
 
-- title: Is there a code of conduct?
-  text: >
-    Yes! All attendees are expected to abide by our Code of Conduct.
-  column: 1
+
 
 - title: Who can attend?
   text: >
@@ -43,7 +40,7 @@
     You'll need a laptop and charger. Don't have one? Get in touch and we'll see what we can arrange. Take a phone charger and any other cables you think you'll need. You should bring some warm and comfortable clothes as the hackathon can be a long 24 hours, and take a fresh set of clothes if you’d like to get changed. If you’d like to take a rest during the event, we’d also suggest taking a sleeping bag and/or pillow.
   column: 2
 
-- title: Are there any COVID-19 restrictions?
+- title: Is there a code of conduct?
   text: >
-    You'll need to comply with all current Scottish Government and Robert Gordon University venue rules at the time of the event. There is currently no requirement for a vaccine passport or equivalent. You may wish to carry out a test before the event for your own peace of mind and to protect others and we would encourage you to do so if that option is available to you.
+    Yes! All attendees are expected to abide by our Code of Conduct.
   column: 2
