@@ -47,4 +47,10 @@
   infopack:
 
 
-
+- name: OPEX
+  image: OPEX.png
+  link: https://www.opex-group.com/
+  tier: Bronze
+  challenge:
+  description:
+  infopack:
