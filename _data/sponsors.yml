@@ -14,6 +14,14 @@
   description:
   infopack:
 
+- name: Aize
+  image: Aize.png
+  link: https://www.aize.io/
+  tier: Gold
+  challenge:
+  description:
+  infopack:
+
 - name: Sword Group
   image: SwordGroup.png
   link: https://www.sword-group.com/
@@ -37,3 +45,6 @@
   challenge:
   description:
   infopack:
+
+
+
