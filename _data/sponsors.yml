@@ -5,3 +5,35 @@
   challenge:
   description:
   infopack:
+
+- name: Core29
+  image: Core29.png
+  link: https://www.core29.co.uk/
+  tier: Gold
+  challenge:
+  description:
+  infopack:
+
+- name: Sword Group
+  image: SwordGroup.png
+  link: https://www.sword-group.com/
+  tier: Silver
+  challenge:
+  description:
+  infopack:
+
+- name: Global E&C
+  image: GlobalEC.png
+  link: https://global-ec.com/
+  tier: Bronze
+  challenge:
+  description:
+  infopack:
+
+- name: Leonardo
+  image: Leonardo.png
+  link: https://www.leonardo.com/en/home
+  tier: Bronze
+  challenge:
+  description:
+  infopack:
