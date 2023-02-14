@@ -54,3 +54,11 @@
   challenge:
   description:
   infopack:
+
+- name: Capgemini
+  image: Capgemini.png
+  link: https://www.capgemini.com/gb-en/
+  tier: Bronze
+  challenge:
+  description:
+  infopack:
