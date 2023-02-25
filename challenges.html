@@ -28,7 +28,7 @@ layout: default
     {% for sponsor in site.data.sponsors %}
     {% if sponsor.tier == "Gold" and sponsor.challenge %}
       <div class="col s12 m6">
-        <div class="card large challenge">
+        <div class="card medium challenge">
           <div class="card-image">
             <img src="{{ sponsor.image | prepend:'images/sponsors/' | prepend:baseurl | prepend:url }}" alt="{{ sponsor.name }}" />
             <span class="card-title">{{ sponsor.challenge }}</span>
