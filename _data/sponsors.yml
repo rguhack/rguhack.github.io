@@ -2,25 +2,25 @@
   image: SoC.png
   link: https://www.comp.rgu.ac.uk/
   tier: Gold
-  challenge:
-  description:
-  infopack:
+  challenge: Campus Maps - Make It Better
+  description: Make campus maps a better experience...
+  infopack: https://github.com/RGUCode/Hack2023
 
 - name: Core29
   image: Core29.png
   link: https://www.core29.co.uk/
   tier: Gold
-  challenge:
-  description:
-  infopack:
+  challenge: Estimating Journey Emissions
+  description: How can emissions be estimated for global transportation to meet environmental goals?
+  infopack: https://github.com/RGUCode/Hack2023
 
 - name: Aize
   image: Aize.png
   link: https://www.aize.io/
   tier: Gold
-  challenge:
-  description:
-  infopack:
+  challenge: Tetris
+  description: Be creative!
+  infopack: https://github.com/RGUCode/Hack2023
 
 - name: Sword Group
   image: SwordGroup.png
