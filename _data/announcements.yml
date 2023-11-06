@@ -1,11 +1,14 @@
-- title: Pizza!
-  detail: Select your preferred pizza (QR on screen) for dinner around ~8pm.
+title: Waiting for the event to start
+detail: TBA
 
-- title: Media consent
-  detail: Please complete the media consent form (QR on screen). If you wish to opt out, collect an orange lanyard.
+# - title: Pizza!
+#   detail: Select your preferred pizza (QR on screen) for dinner around ~8pm.
 
-- title: Challenges released!
-  detail: See <a href="https://github.com/RGUCode/Hack2024">https://github.com/RGUCode/Hack2024</a>
+# - title: Media consent
+#   detail: Please complete the media consent form (QR on screen). If you wish to opt out, collect an orange lanyard.
 
-- title: Check-in
-  detail: Please check-in at the front desk or speak to someone!
+# - title: Challenges released!
+#   detail: See <a href="https://github.com/RGUCode/Hack2024">https://github.com/RGUCode/Hack2024</a>
+
+# - title: Check-in
+#   detail: Please check-in at the front desk or speak to someone!
