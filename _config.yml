@@ -16,7 +16,7 @@
 title: RGUHack
 email: compsoc@rguunion.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  RGUHack, Aberdeen's best hackathon is hosted on the 25th and 26th of February.
+  RGUHack, Aberdeen's best hackathon is hosted on the.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rguhack.uk" # the base hostname & protocol for your site, e.g. http://example.com
 
