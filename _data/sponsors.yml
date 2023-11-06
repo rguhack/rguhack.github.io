@@ -2,63 +2,63 @@
   image: SoC.png
   link: https://www.comp.rgu.ac.uk/
   tier: Gold
-  challenge: Campus Maps - Make It Better
-  description: Make campus maps a better experience...
-  infopack: https://github.com/RGUCode/Hack2024
+  challenge: 
+  description: 
+  infopack: 
 
-- name: Core29
-  image: Core29.png
-  link: https://www.core29.co.uk/
-  tier: Gold
-  challenge: Estimating Journey Emissions
-  description: How can emissions be estimated for global transportation to meet environmental goals?
-  infopack: https://github.com/RGUCode/Hack2024
+# - name: Core29
+#   image: Core29.png
+#   link: https://www.core29.co.uk/
+#   tier: Gold
+#   challenge: Estimating Journey Emissions
+#   description: How can emissions be estimated for global transportation to meet environmental goals?
+#   infopack: 
 
-- name: Aize
-  image: Aize.png
-  link: https://www.aize.io/
-  tier: Gold
-  challenge: Tetris
-  description: Be creative!
-  infopack: https://github.com/RGUCode/Hack2024
+# - name: Aize
+#   image: Aize.png
+#   link: https://www.aize.io/
+#   tier: Gold
+#   challenge: Tetris
+#   description: Be creative!
+#   infopack: 
 
-- name: Sword Group
-  image: SwordGroup.png
-  link: https://www.sword-group.com/
-  tier: Silver
-  challenge:
-  description:
-  infopack:
+# - name: Sword Group
+#   image: SwordGroup.png
+#   link: https://www.sword-group.com/
+#   tier: Silver
+#   challenge:
+#   description:
+#   infopack:
 
-- name: Global E&C
-  image: GlobalEC.png
-  link: https://global-ec.com/
-  tier: Bronze
-  challenge:
-  description:
-  infopack:
+# - name: Global E&C
+#   image: GlobalEC.png
+#   link: https://global-ec.com/
+#   tier: Bronze
+#   challenge:
+#   description:
+#   infopack:
 
-- name: Leonardo
-  image: Leonardo.png
-  link: https://www.leonardo.com/en/home
-  tier: Bronze
-  challenge:
-  description:
-  infopack:
+# - name: Leonardo
+#   image: Leonardo.png
+#   link: https://www.leonardo.com/en/home
+#   tier: Bronze
+#   challenge:
+#   description:
+#   infopack:
 
 
-- name: OPEX
-  image: OPEX.png
-  link: https://www.opex-group.com/
-  tier: Bronze
-  challenge:
-  description:
-  infopack:
+# - name: OPEX
+#   image: OPEX.png
+#   link: https://www.opex-group.com/
+#   tier: Bronze
+#   challenge:
+#   description:
+#   infopack:
 
-- name: Capgemini
-  image: Capgemini.png
-  link: https://www.capgemini.com/gb-en/
-  tier: Bronze
-  challenge:
-  description:
-  infopack:
+# - name: Capgemini
+#   image: Capgemini.png
+#   link: https://www.capgemini.com/gb-en/
+#   tier: Bronze
+#   challenge:
+#   description:
+#   infopack:
