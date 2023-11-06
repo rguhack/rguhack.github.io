@@ -4,7 +4,7 @@
   tier: Gold
   challenge: Campus Maps - Make It Better
   description: Make campus maps a better experience...
-  infopack: https://github.com/RGUCode/Hack2023
+  infopack: https://github.com/RGUCode/Hack2024
 
 - name: Core29
   image: Core29.png
@@ -12,7 +12,7 @@
   tier: Gold
   challenge: Estimating Journey Emissions
   description: How can emissions be estimated for global transportation to meet environmental goals?
-  infopack: https://github.com/RGUCode/Hack2023
+  infopack: https://github.com/RGUCode/Hack2024
 
 - name: Aize
   image: Aize.png
@@ -20,7 +20,7 @@
   tier: Gold
   challenge: Tetris
   description: Be creative!
-  infopack: https://github.com/RGUCode/Hack2023
+  infopack: https://github.com/RGUCode/Hack2024
 
 - name: Sword Group
   image: SwordGroup.png
