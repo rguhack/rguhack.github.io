@@ -50,7 +50,7 @@ $(document).ready(function() {
     closeOnClick: true
   });
 
-  var deadline = '2024-02-26T12:00:00Z';
+  var deadline = '2024-02-24T12:00:00Z';
   initializeClock('clock', deadline);
 
   // $('.info-section form').on('submit', function(e) {
