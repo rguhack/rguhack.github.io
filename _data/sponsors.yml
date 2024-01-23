@@ -44,16 +44,16 @@
   tier: Silver
 
 - name: Datalab
-  image: datalab.png
+  image: Datalab.png
   link: https://thedatalab.com/
   tier: Silver
   
-- name: Barclays Eage Labs
-  image: eaglelabs.png
+- name: Barclays Eagle Labs
+  image: Eaglelabs.png
   link: https://labs.uk.barclays/
   tier: Silver
 
 - name: Dev4 Online
-  image: dev4.png
+  image: Dev4.png
   link: https://dev4.online/
   tier: Bronze
