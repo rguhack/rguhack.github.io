@@ -9,59 +9,51 @@
   description: 
   infopack: 
 
-# - name: Core29
-#   image: Core29.png
-#   link: https://www.core29.co.uk/
-#   tier: Gold
-#   challenge: Estimating Journey Emissions
-#   description: How can emissions be estimated for global transportation to meet environmental goals?
-#   infopack: 
+- name: Core29
+  image: Core29.png
+  link: https://www.core29.co.uk/
+  tier: Gold
+  challenge: 
+  description: 
+  infopack: 
 
-# - name: Aize
-#   image: Aize.png
-#   link: https://www.aize.io/
-#   tier: Gold
-#   challenge: Tetris
-#   description: Be creative!
-#   infopack: 
+- name: CGI
+  image: CGI.png
+  link: https://www.cgi.com/
+  tier: Gold
+  challenge:
+  description:
+  infopack:
 
-# - name: Sword Group
-#   image: SwordGroup.png
-#   link: https://www.sword-group.com/
-#   tier: Silver
-#   challenge:
-#   description:
-#   infopack:
+- name: Global E&C
+  image: GlobalEC.png
+  link: https://global-ec.com/
+  tier: Gold
+  challenge:
+  description:
+  infopack:
 
-# - name: Global E&C
-#   image: GlobalEC.png
-#   link: https://global-ec.com/
-#   tier: Bronze
-#   challenge:
-#   description:
-#   infopack:
+- name: Sword Group
+  image: SwordGroup.png
+  link: https://www.sword-group.com/
+  tier: Silver
 
-# - name: Leonardo
-#   image: Leonardo.png
-#   link: https://www.leonardo.com/en/home
-#   tier: Bronze
-#   challenge:
-#   description:
-#   infopack:
+- name: Fennex 
+  image: fennex.png
+  link: https://fennex.net/
+  tier: Silver
 
+- name: Datalab
+  image: Datalab.png
+  link: https://thedatalab.com/
+  tier: Silver
+  
+- name: Barclays Eagle Labs
+  image: Eaglelabs.png
+  link: https://labs.uk.barclays/
+  tier: Silver
 
-# - name: OPEX
-#   image: OPEX.png
-#   link: https://www.opex-group.com/
-#   tier: Bronze
-#   challenge:
-#   description:
-#   infopack:
-
-# - name: Capgemini
-#   image: Capgemini.png
-#   link: https://www.capgemini.com/gb-en/
-#   tier: Bronze
-#   challenge:
-#   description:
-#   infopack:
+- name: Dev4 Online
+  image: Dev4.png
+  link: https://dev4.online/
+  tier: Bronze
