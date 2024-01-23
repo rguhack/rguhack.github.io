@@ -53,7 +53,18 @@
   link: https://labs.uk.barclays/
   tier: Silver
 
+- name: Salus Technical
+  image: SalusTechnical.png
+  link: https://salus-technical.com/
+  tier: Silver
+
 - name: Dev4 Online
   image: Dev4.png
   link: https://dev4.online/
   tier: Bronze
+
+- name: Impact Subsea
+  image: ImpactSubsea.ong
+  link: https://www.impactsubsea.co.uk/
+  tier: Bronze
+
