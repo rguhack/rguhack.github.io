@@ -39,17 +39,17 @@
   tier: Silver
 
 - name: Fennex 
-  image: fennex.png
+  image: Fennex.png
   link: https://fennex.net/
   tier: Silver
 
 - name: Datalab
-  image: Datalab.png
+  image: DataLab.png
   link: https://thedatalab.com/
   tier: Silver
   
 - name: Barclays Eagle Labs
-  image: Eaglelabs.png
+  image: EagleLabs.png
   link: https://labs.uk.barclays/
   tier: Silver
 
