@@ -1,66 +1,59 @@
-- title: TBA
-  detail: To Be Announced
+- title: Arrival and Registration
+  time: "10:00"
+  day: 1
 
-# - title: Arrival and Registration
-#   time: "10:00"
-#   day: 1
+- title: Introduction, Sponsor Presentations and Challenges
+  time: "11:00"
+  day: 1
 
-# - title: Introduction, Sponsor Presentations and Challenges
-#   time: "11:00"
-#   day: 1
+- title: Team Formation and Lunch
+  time: "12:00"
+  day: 1
 
-# - title: Hackers, Hipsters and Hustlers Unite.... and Lunch
-#   time: "12:00"
-#   day: 1
-
-# - title: <b>Start of Hacking</b>
-#   time: "12:30"
-#   day: 1
+- title: <b>Start of Hacking</b>
+  time: "12:30"
+  day: 1
 
 # - title: <b>Pitching and how to do it</b>
 #   time: "13:30"
 #   day: 1
 
-# - title: <b>API Workshop - How to use other peoples data!</b>
-#   time: "16:30"
-#   day: 1
+- title: <b>Workshop - To be confirmed</b>
+  time: "16:30"
+  day: 1
 
-# - title: <b>AI Workshop - An intelligence to your Hack</b>
-#   time: "18:00"
-#   day: 1
+- title: <b>Workshop - To be confirmed</b>
+  time: "18:00"
+  day: 1
 
-# - title: Dinner
-#   time: "19:00"
-#   day: 1
+- title: Pizza time!
+  time: "19:00"
+  day: 1
 
-# - title: <b>Slideshow Karaoke</b>
-#   time: "22:00"
-#   day: 1
+- title: <b>Slideshow Karaoke</b>
+  time: "22:00"
+  day: 1
 
-# - title: <b>Physical Security Workshop - Just in case you ever need it</b>
-#   time: "01:00"
-#   day: 2
+- title: <b>Workshop - To be confirmed</b>
+  time: "01:00"
+  day: 2
 
-# - title: <b>Gaming Tournament</b>
-#   time: "03:00"
-#   day: 2
+- title: Breakfast
+  time: "08:00"
+  day: 2
 
-# - title: Breakfast
-#   time: "08:00"
-#   day: 2
+- title: Lunch
+  time: "12:00"
+  day: 2
 
-# - title: Lunch
-#   time: "12:00"
-#   day: 2
+- title: <b>End of Hacking</b> and Hack Presentations
+  time: "13:30"
+  day: 2
 
-# - title: <b>End of Hacking</b> and Hack Presentations
-#   time: "13:30"
-#   day: 2
+- title: Prize Giving, Closing Talks and Networking
+  time: "15:00"
+  day: 2
 
-# - title: Prize Giving, Closing Talks and Networking
-#   time: "15:00"
-#   day: 2
-
-# - title: End of the Event
-#   time: "16:00"
-#   day: 2
+- title: End of the Event
+  time: "16:00"
+  day: 2
