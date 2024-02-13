@@ -76,10 +76,14 @@
 - name: Aize
   image: Aize.png
   link: https://aize.io/
-  tier: Bronze
+  tier: Silver
 
 - name: SphereOne Portal
   image: SphereOne.png
   link: https://sphereoneportal.com/
   tier: Bronze
 
+- name: BCS
+  image: BCS.jpg
+  link: https://www.bcs.org/
+  tier: Bronze
