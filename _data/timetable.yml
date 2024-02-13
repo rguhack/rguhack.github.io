@@ -15,30 +15,46 @@
   day: 1
 
 - title: <b>Pitching and how to do it</b>
-  time: "13:30"
+  time: "13:00"
+  day: 1
+
+- title: <b>Github Workshop - A home for your code
+  time: "14:30"
   day: 1
 
 - title: <b>API Workshop - How to use other peoples data!</b>
+  time: "15:30"
+  day: 1
+
+- title: <b>Cyber Workshop - Capturing all the flags
   time: "16:30"
   day: 1
 
-- title: <b>AI Workshop - An intelligence to your Hack</b>
-  time: "18:00"
+- title: <b>Game Dev Workshop - Gaming, Gaming, Gaming
+  time: "17:30"
   day: 1
 
 - title: Dinner
   time: "19:00"
   day: 1
 
+- title: <b>AI Workshop - An intelligence to your Hack</b>
+  time: "20:00"
+  day: 1
+
 - title: <b>Slideshow Karaoke</b>
-  time: "22:00"
+  time: "21:00"
+  day: 1
+
+- title: <b>Minecraft!!!</b>
+  time: "22:30"
   day: 1
 
 - title: <b>Physical Security Workshop - Just in case you ever need it</b>
   time: "01:00"
   day: 2
 
-- title: <b>Gaming Tournament</b>
+- title: <b>Funny Drawing Competition
   time: "03:00"
   day: 2
 
