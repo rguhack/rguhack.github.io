@@ -3,7 +3,7 @@
   day: 1
 
 - title: Introduction, Sponsor Presentations and Challenges
-  time: "11:00"
+  time: "10:30"
   day: 1
 
 - title: Hackers, Hipsters and Hustlers Unite.... and Lunch
@@ -19,22 +19,22 @@
   day: 1
 
 - title: <b>Github Workshop - A home for your code
-  time: "14:30"
+  time: "14:00"
+  day: 1
+
+- title: <b>Web App Workshop - Creating dashboards</b>
+  time: "15:00"
   day: 1
 
 - title: <b>API Workshop - How to use other peoples data!</b>
-  time: "15:30"
+  time: "16:00"
   day: 1
 
 - title: <b>Cyber Workshop - Capturing all the flags
-  time: "16:30"
-  day: 1
-
-- title: <b>Game Dev Workshop - Gaming, Gaming, Gaming
   time: "17:30"
   day: 1
 
-- title: Dinner
+- title: Dinner (Pizza Time!)
   time: "19:00"
   day: 1
 
@@ -42,7 +42,7 @@
   time: "20:00"
   day: 1
 
-- title: <b>Slideshow Karaoke</b>
+- title: <b>Powerpoint Karaoke!</b>
   time: "21:00"
   day: 1
 
@@ -67,13 +67,9 @@
   day: 2
 
 - title: <b>End of Hacking</b> and Hack Presentations
-  time: "13:30"
+  time: "12:30"
   day: 2
 
 - title: Prize Giving, Closing Talks and Networking
-  time: "15:00"
-  day: 2
-
-- title: End of the Event
-  time: "16:00"
+  time: "13:00"
   day: 2
